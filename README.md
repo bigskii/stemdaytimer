@@ -1,2 +1,2 @@
 # stemdaytimer
-Segmented timer I was half-asked-half-told to do for a school event. Hopefully boomer-proof.
+Segmented timer I was asked to do for a school event. Hopefully boomer-proof.
