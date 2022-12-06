@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>STEM Day Timer</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.cdnfonts.com/css/georgia" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <script src="script.js"></script>
+	<h1>STEM Day Debate</h1>
+	<p id="timer" class="timer">0</p>
+	<br>
+	<br>
+	<br>
+	<div id="buttons" style="text-align:center;">
+		<!--
+		Starting guidelines can vary about 5 minutes
+Presentation period 2 min. to confer
+6 min. to present
+Commentary period 1 minute to confer
+3 min. to comment
+Response period 1 min. to confer
+3 min. to comment
+Judges period 10 min Q&A
+--> 
+		<div id="presentation" style="text-align:center;">
+			<h2>Presentation Period</h2>
+			<br>
+			<button type="button" onclick="timer2m();">Confer - 2 minutes</button>
+			<br>
+			<button type="button" onclick="timer6m();">Present - 6 minutes</button>
+			<br>
+		</div>
+		<div id="commentary">
+			<h2>Commentary Period</h2>
+			<br>
+			<button type="button" onclick="timer1m();">Confer - 1 minute</button>
+			<br>
+			<button type="button" onclick="timer3m();">Discuss - 3 minutes</button>
+			<br>
+		</div>
+		<div id="response">
+			<h2>Response Period</h2>
+			<br>
+			<button type='button' onclick="timer1m();">Confer - 1 minutes</button>
+			<br>
+			<button type="button" onclick="timer3m();">Comment - 3 minutes</button>
+			<br>
+		</div>
+		<div id="qna">
+			<h2>Q&A Period</h2>
+			<br>
+			<button type="button" onclick="timer10m();">Q&A - 10 minutes</button>
+		</div>
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<p class="footer">Made with ❤ by Owen Murphy</p>
+</body>
+
+
+</html>
