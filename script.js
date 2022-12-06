@@ -4,7 +4,7 @@ breakout = false
 function timer2m(){
     var sec = 120;
     var timer = setInterval(function(){
-        document.getElementById('timer').innerHTML=sec;
+        document.getElementById('timer').innerHTML=sec+" seconds";
         sec--;
         if (sec < 0) {
             clearInterval(timer);
@@ -14,7 +14,7 @@ function timer2m(){
 function timer6m(){
     var sec = 360;
     var timer = setInterval(function(){
-        document.getElementById('timer').innerHTML=sec;
+        document.getElementById('timer').innerHTML=sec+" seconds";
         sec--;
         if (sec < 0) {
             clearInterval(timer);
@@ -27,7 +27,7 @@ function timer6m(){
 function timer1m(){
     var sec = 60;
     var timer = setInterval(function(){
-        document.getElementById('timer').innerHTML=sec;
+        document.getElementById('timer').innerHTML=sec+" seconds";
         sec--;
         if (sec < 0) {
             clearInterval(timer);
@@ -37,7 +37,7 @@ function timer1m(){
 function timer3m(){
     var sec = 180;
     var timer = setInterval(function(){
-        document.getElementById('timer').innerHTML=sec;
+        document.getElementById('timer').innerHTML=sec+" seconds";
         sec--;
         if (sec < 0) {
             clearInterval(timer);
@@ -47,7 +47,7 @@ function timer3m(){
 function timer10m(){
     var sec = 600;
     var timer = setInterval(function(){
-        document.getElementById('timer').innerHTML=sec;
+        document.getElementById('timer').innerHTML=sec+" seconds";
         sec--;
         if (sec < 0) {
             clearInterval(timer);
