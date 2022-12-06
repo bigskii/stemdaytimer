@@ -35,3 +35,15 @@ h2 {
 	font-family: 'EB Garamond', serif;
 	text-align: center;
 }
+
+.button {
+  background-color: yellow; /* not Green */
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+	font-family: 'Georgia', sans-serif;
+}
